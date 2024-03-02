@@ -231,3 +231,25 @@ color: white;
    font-size: 13px;
    font-weight: bold;
 }
+
+.colMenu, .colGames{
+  width: 20%;
+}
+
+.colMain{
+  width: 80%;
+}
+
+.colSide{
+  width: 10%;
+}
+
+@media screen and (max-width: 980px) {
+  .colMenu, .colGames {
+    width: 50%;
+  }
+
+  .colGames {
+    padding:5px;
+  }
+}
