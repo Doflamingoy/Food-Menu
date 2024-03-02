@@ -318,6 +318,9 @@ color: white;
     margin-top: 50px;
     position: absolute;
   }
+  .banner{
+    height: 90%;
+  }
 }
 
 
