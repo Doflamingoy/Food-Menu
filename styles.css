@@ -279,5 +279,46 @@ color: white;
     }
 }
 
+@media screen and (max-width: 660px) {
+  .harmIcon{
+    margin-top: 50px;
+    position: absolute;
+    }
+  .msWondericon {
+      margin-top: 105px;
+    position: absolute;
+    }
+}
+
+@media screen and (max-width: 591px) {
+  .harmIcon{
+    margin-top: 50px;
+    position: absolute;
+    }
+  .msWondericon {
+      margin-top: 105px;
+    position: absolute;
+    }
+  .predictIcon{
+    margin-top: 50px;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .harmIcon{
+    margin-top: 105px;
+    position: absolute;
+    }
+  .msWondericon {
+      margin-top: 160px;
+    position: absolute;
+    }
+  .predictIcon{
+    margin-top: 50px;
+    position: absolute;
+  }
+}
+
 
 
