@@ -277,6 +277,10 @@ color: white;
     margin-top: 50px;
     position: absolute;
     }
+    
+  .banner{
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 660px) {
@@ -288,6 +292,7 @@ color: white;
       margin-top: 105px;
     position: absolute;
     }
+    
 }
 
 @media screen and (max-width: 591px) {
@@ -317,9 +322,6 @@ color: white;
   .predictIcon{
     margin-top: 50px;
     position: absolute;
-  }
-  .banner{
-    height: 100%;
   }
 }
 
