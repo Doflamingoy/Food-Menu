@@ -57,40 +57,11 @@ margin: 0;
 }
 
 
-.topNav {
-  overflow: hidden;
-  margin-bottom: 1.5%;
-  background-color: #263045;
-}
-
-.topNav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topNav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topNav a.split {
-  float: right;
-    color: white;
-}
-
-
 .navIcon{ 
   position: absolute;
   top: 5px;
 }
 
-.topNav{
-  position: relative;
-}
 
 fieldset, legend {
   all: revert;
@@ -244,7 +215,36 @@ color: white;
   width: 10%;
 }
 
-@media screen and (max-width: 1024px) {
+.topNav {
+  overflow: hidden;
+  margin-bottom: 1.5%;
+  background-color: #263045;
+}
+
+.topNav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topNav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topNav a.split {
+  float: right;
+    color: white;
+}
+
+.topNav{
+  position: relative;
+}
+
+@media screen and (max-width: 1211px) {
   .colMenu, .colGames {
     width: 50%;
   }
@@ -260,12 +260,24 @@ color: white;
   .colMain{
     width: 100%;
   }
-
-
-}
-
-@media screen and (max-width: 990) {
-  .banner{ 
-    top: 90%;
+  .topNav a {
+    flex-direction: column;
+    align-items: flex-start;
   }
+
+  .msWondericon {
+    margin-top: 50px;
+  position: absolute;
+  }
+
 }
+
+@media screen and (max-width: 700px) {
+  .harmIcon{
+    margin-top: 50px;
+    position: absolute;
+    }
+}
+
+
+
