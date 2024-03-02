@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    #fullscreen-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.8);
+      display: none;
+      flex-direction: column;
+      padding: 10px;
+    }
+
+    #fullscreen-image {
+      max-width: 90vw;
+      max-height: 90vh;
+      cursor: pointer;
+    }
+
+    #exit-icon-container {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      align-self: flex-start;
+    }
+
+    #exit-icon {
+      margin-right: 5px; /* Adjust the margin as needed */
+    }
+
+    .zoomable-image {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Your page content -->
+  <img class="zoomable-image" src="wildCelebrity.png" alt="Zoomable Image" onclick="zoomImage(this)">
+
+  <!-- Fullscreen container for zoomed image -->
+  <div id="fullscreen-container" onclick="closeFullscreen()">
+    <div id="exit-icon-container" onclick="closeFullscreen()">
+      <img id="exit-icon" src="quitIcon.png" alt="Exit Fullscreen">
+      Exit
+    </div>
+    <img id="fullscreen-image" src="" alt="Fullscreen Image">
+  </div>
+
+  <script>
+    function zoomImage(imgElement) {
+      const fullscreenContainer = document.getElementById('fullscreen-container');
+      const fullscreenImage = document.getElementById('fullscreen-image');
+
+      fullscreenImage.src = imgElement.src;
+      fullscreenContainer.style.display = 'flex';
+    }
+
+    function closeFullscreen() {
+      document.getElementById('fullscreen-container').style.display = 'none';
+    }
+  </script>
+
+</body>
+</html>

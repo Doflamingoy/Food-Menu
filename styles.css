@@ -1,0 +1,233 @@
+body{
+background-color: #000c24;
+font-family: 'Roboto';
+margin: 0;
+}
+
+.navMenu {
+    background-color: #263045;
+    color: white;
+}
+
+.noMargin{
+    margin-left:0 ;
+    margin-right:0 ;
+}
+
+
+  .upperRightnavBar{
+    text-align: center;
+  }
+  
+  .navBar{
+    float: right;
+    color: white;
+  }
+
+  .banner{
+    width: 100%;
+    height: 410px;
+  }
+
+  .menuButtons img {
+      height: 100%;
+  }
+
+  .casinoMenu img {
+    height: 100%;
+}
+
+.maxWidth{
+  width: 100%;
+}
+
+.casinoMenu{
+  margin-top: 15px;
+  color:white
+}
+
+.floatRight {
+  float: right;
+}
+
+
+
+.whiteText{
+  color: white;
+}
+
+
+.topNav {
+  overflow: hidden;
+  margin-bottom: 1.5%;
+  background-color: #263045;
+}
+
+.topNav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topNav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topNav a.split {
+  float: right;
+    color: white;
+}
+
+
+.navIcon{ 
+  position: absolute;
+  top: 5px;
+}
+
+.topNav{
+  position: relative;
+}
+
+fieldset, legend {
+  all: revert;
+}
+
+fieldset{
+  color:  #a44aec;
+  text-align: center;
+  
+  border: solid 1px #a44aec;
+}
+
+.boldText{
+  font-weight: bold;
+}
+
+u{
+  text-decoration-thickness: 1px;
+  text-underline-offset: 10px;
+}
+
+a{
+  text-decoration:none;
+  color: white ;
+}
+
+a:hover{
+color: white;
+}
+
+.subFooter{
+  color: #999ea7;
+}
+
+.moreButton{
+  color: #999ea7;
+  text-decoration:none;
+}
+
+.subFooter a{
+  color: #999ea7;
+  padding-left: 3px;
+}
+
+.iconContainers {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconRows {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.icons {
+  margin-left: 10px;
+}
+
+.centerImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+.navContainer {
+  display: flex;
+  align-items: center;
+}
+
+.navCol {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 13px;
+  max-height: 30px;
+  margin-right: 5px;
+}
+
+.navCenterimg {
+  display: block;
+  margin: auto;
+}
+
+.navSecond-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.navBgcolor{
+  background-color: #263045;
+}
+
+.downIcon {
+  padding-left: 5px;
+}
+
+
+#fullscreen-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  flex-direction: column;
+  padding: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#fullscreen-image {
+  max-width: 100vw;
+  max-height: 80vh;
+  cursor: pointer;
+}
+
+#exit-icon-container {
+  cursor: pointer;
+  align-self: flex-start;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.zoomable-image {
+  cursor: pointer;
+}
+
+.exitButton{
+   color: #a44aec;
+   font-size: 13px;
+   font-weight: bold;
+}
