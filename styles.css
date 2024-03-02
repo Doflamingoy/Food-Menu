@@ -244,12 +244,26 @@ color: white;
   width: 10%;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1024px) {
   .colMenu, .colGames {
     width: 50%;
   }
 
   .colGames {
     padding:5px;
+  }
+
+  .colSide{
+    width: 0;
+  }
+
+  .colMain{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1211px) {
+  .navIcon{ 
+    top: 0px;
   }
 }
