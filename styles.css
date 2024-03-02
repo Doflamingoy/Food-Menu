@@ -264,7 +264,7 @@ color: white;
 
 }
 
-@media screen and (max-width: 940) {
+@media screen and (max-width: 990) {
   .banner{ 
     top: 90%;
   }
