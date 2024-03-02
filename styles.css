@@ -260,10 +260,12 @@ color: white;
   .colMain{
     width: 100%;
   }
+
+
 }
 
-@media screen and (max-width: 1211px) {
-  .navIcon{ 
-    top: 0px;
+@media screen and (max-width: 940) {
+  .banner{ 
+    top: 90%;
   }
 }
